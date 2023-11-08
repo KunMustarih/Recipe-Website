@@ -1,0 +1,340 @@
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 36px;
+    
+}
+
+/* Default styles for all screen sizes 
+For add-recipe.html
+*/
+.recipe-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* For the confirmation.html */
+.confirmation-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.confirmation-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.confirmation-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.confirmation-container a {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.confirmation-container a:hover {
+    background-color: #0056b3;
+}
+
+/* food-details */
+#food-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#food-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#food-details p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Index.html */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+
+/* Style the CTA section */
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-buttons a {
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-buttons a:hover {
+    background-color: #258cd1;
+}
+
+.cta-buttons span {
+    font-size: 18px;
+}
+
+/* Style the featured recipes section (you can add your styles here) */
+.featured-recipes h2 {
+    font-size: 24px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+
+/* Navigation */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style the list items (buttons) */
+.navigation ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* Style the anchor links (buttons) */
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: border 0.3s, background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+/* Hover effect for buttons */
+.navigation ul li a:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #fff;
+    transition: border 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.featured-recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 -10px; /* Add negative margin to offset the margin on .recipe */
+}
+
+.recipe {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: calc(100% - 20px); /* 100% width minus margins */
+    max-width: 400px; /* Max width for larger screens */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+}
+
+.recipe h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.recipe p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+.recipe a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF6600;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: border 0.3s, background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+/* Hover effect for buttons */
+.recipe a:hover {
+    background-color:cyan;
+    color: #333;
+    border: 2px solid #fff;
+    transition: border 0.3s, background-color 0.3s, color 0.3s;
+}
+
+
+
+#back-button {
+    display: inline;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF6600;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: border 0.3s, background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+
+#back-button:hover {
+    background-color:cyan;
+    color: #333;
+    border: 2px solid #fff;
+    transition: border 0.3s, background-color 0.3s, color 0.3s;
+}
+
+/* Terms */
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: decimal;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

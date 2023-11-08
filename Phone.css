@@ -1,0 +1,213 @@
+/* Phone styles here */
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/* Recipe table in profile.html */
+.recipe-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.recipe-table th, .recipe-table td {
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: left;
+}
+
+.recipe-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Add recipe.html */
+.recipe-container {
+    padding: 10px;
+}
+
+label, input[type="text"], textarea {
+    font-size: 14px;
+}
+
+/* confirmation.html */
+.confirmation-container {
+    max-width: 100%;
+}
+
+.confirmation-container h2 {
+    font-size: 20px;
+}
+
+/* food-details.html */
+#food-details {
+    max-width: 100%;
+}
+
+#food-details h2 {
+    font-size: 20px;
+}
+
+#food-details p {
+    font-size: 16px;
+}
+
+/* food-details.html */
+#food-details {
+    max-width: 100%;
+}
+
+#food-details h2 {
+    font-size: 20px;
+}
+
+#food-details p {
+    font-size: 16px;
+}
+
+/* Index.html */
+/* Additional styles for phone screens */
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+.cta h2 {
+    font-size: 20px;
+}
+
+.cta p {
+    font-size: 14px;
+}
+
+.cta-buttons a {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.cta-buttons span {
+    font-size: 14px;
+}
+
+.featured-recipes h2 {
+    font-size: 18px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+/* profile.html */
+.profile-container {
+    width: 90%;
+    padding: 10px;
+}
+h2 {
+    font-size: 20px;
+}
+.user-info p {
+    font-size: 14px;
+}
+.recipe-table th,
+.recipe-table td {
+    padding: 6px;
+    font-size: 14px;
+}
+#logout-button {
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+/* recipe-search */
+table {
+    width: 90%; /* Adjust the width for better mobile display */
+    margin: 0 auto;
+}
+
+table th,
+table td {
+    padding: 8px; /* Reduce padding for mobile */
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    font-size: 16px; /* Adjust font size for better mobile display */
+    background-color: #3498db;
+}
+
+/* Add styles for table rows and links suitable for the phone version */
+
+.form-group {
+    margin-bottom: 12px; /* Adjust margin for better spacing on mobile */
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px; /* Reduce padding for mobile */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Adjust font size for better mobile display */
+}
+
+button {
+    padding: 10px 15px; /* Adjust padding for mobile */
+    background-color: #0077FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* registeration */
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    padding: 20px;
+}
+
+button {
+    padding: 15px 30px;
+}
+
+/* Home.html */
+.recipe {
+    max-width: 100%;
+    font-size: 16px;
+}
+
+/* Terms */
+li {
+    font-size: 14px;
+}
+
+#back-button {
+    top: 100%; /* Adjust the vertical position for phones */
+    left: 50%;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sharedstyle.css">
+    <link rel="stylesheet" href="Desktop.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="Laptop.css" media="screen and (min-width: 768px) and (max-width: 1023px)">
+    <link rel="stylesheet" href="Phone.css" media="screen and (max-width: 767px)">
+    <title>Home | Lazeez</title>
+</head>
+<body>
+    <header>
+        <h1>Lazeez</h1>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="recipe-search.html">Recipe Search</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="terms.html">Terms and Services</a></li>
+            <li><a href="Index.html">Log out</a></li>
+        </ul>
+    </nav>
+    
+    <section class="main-content">
+        <h2>Welcome to Lazeez</h2>
+        <p>Discover a world of delicious recipes from around the globe. Whether you're a seasoned chef or just getting started in the kitchen, you'll find a wide variety of recipes to explore.</p>
+
+        <h3>Featured Recipes</h3>
+        <div class="featured-recipes">
+            <!-- Sample featured recipes with images and descriptions -->
+            <div class="recipe">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="/photo/Spaghetti-high.jpg">
+                    <source media="(min-width: 768px) and (max-width: 1023px)" srcset="/photo/Spaghetti.jpg">
+                    <img src="/photo/Spaghetti-low.jpg" alt="Responsive Image">
+                </picture>
+                
+                <h4>Spaghetti Carbonara</h4>
+                <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.</p>
+                <a href="food-details.html?food=1">Learn More</a>
+            </div>
+            <div class="recipe">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="/photo/Tikka masala-high.jpg">
+                    <source media="(min-width: 768px) and (max-width: 1023px)" srcset="/photo/Tikka masala-medium.jpg">
+                    <img src="/photo/Tikka masala-low.jpg" alt="Responsive Image">
+                </picture>
+                
+                <h4>Chicken Tikka Masala</h4>
+                <p>A popular Indian dish featuring marinated and grilled chicken served in a creamy tomato sauce.</p>
+                <a href="food-details.html?food=2">Learn More</a>
+            </div>
+            <div class="recipe">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="/photo/Caesar salad-high.jpg">
+                    <source media="(min-width: 768px) and (max-width: 1023px)" srcset="/photo/Caesar salad-medium.jpg">
+                    <img src="/photo/Caesar salad-low.jpg" alt="Responsive Image">
+                </picture>
+                
+                <h4>Caesar Salad</h4>
+                <p>A classic Caesar salad with fresh romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.</p>
+                <a href="food-details.html?food=3">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

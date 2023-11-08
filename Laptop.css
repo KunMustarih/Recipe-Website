@@ -1,0 +1,222 @@
+/* Laptop styles here */
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+
+/* Recipe table in profile.html */
+.recipe-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.recipe-table th, .recipe-table td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+}
+
+.recipe-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+/* recipe.html */
+/* Default styles for all screen sizes */
+.recipe-container {
+    max-width: 600px;
+}
+
+/* confirmation.html */
+
+.confirmation-container {
+    max-width: 600px;
+}
+
+/* food-details.html */
+#food-details {
+    max-width: 600px;
+}
+
+#food-details h2 {
+    font-size: 22px;
+}
+
+#food-details p {
+    font-size: 17px;
+}
+
+/* index.html */
+/* Additional styles for laptop screens */
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.cta h2 {
+    font-size: 24px;
+}
+
+.cta p {
+    font-size: 16px;
+}
+
+.cta-buttons a {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.cta-buttons span {
+    font-size: 16px;
+}
+
+.featured-recipes h2 {
+    font-size: 22px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+/* profile.html */
+.profile-container {
+    width: 80%;
+}
+h2 {
+    font-size: 22px;
+}
+.user-info p {
+    font-size: 16px;
+}
+.recipe-table th,
+.recipe-table td {
+    padding: 8px;
+    font-size: 16px;
+}
+#logout-button {
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+
+/* recipe.html */
+table {
+    width: 80%;
+}
+table th,
+table td {
+    padding: 10px;
+}
+
+/* registeration */
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    padding: 15px;
+}
+
+button {
+    padding: 12px 24px;
+}
+
+.recipe {
+  max-width: 300px;
+        font-size: 18px; /* Font size adjustment for medium screens */  
+}
+
+/* Recipe-search.html */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+table a:hover {
+    color: #258cd1;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0077FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Terms */
+li {
+    font-size: 16px;
+}
+
+#back-button {
+    top: 100%;
+    left: 50%;
+}
