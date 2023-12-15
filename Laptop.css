@@ -90,23 +90,13 @@ footer {
 }
 
 /* profile.html */
-.profile-container {
-    width: 80%;
+.user-profile {
+    margin: 20px;
 }
-h2 {
-    font-size: 22px;
-}
-.user-info p {
-    font-size: 16px;
-}
-.recipe-table th,
-.recipe-table td {
-    padding: 8px;
-    font-size: 16px;
-}
-#logout-button {
-    font-size: 16px;
-    padding: 8px 16px;
+
+.box-container {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 
@@ -219,4 +209,16 @@ li {
 #back-button {
     top: 100%;
     left: 50%;
+}
+
+
+/* Login page */
+.login-container {
+    padding: 10px;
+}
+
+/* Paypal button */
+#paypal-button-container {
+    margin-top: 15px;
+    text-align: center;
 }

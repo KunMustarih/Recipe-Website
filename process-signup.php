@@ -45,7 +45,7 @@ try {
 } catch (mysqli_sql_exception $e) {
     if ($e->getCode() == 1062) {
         // Duplicate entry error
-        die("Email address is already in use. Please use a different email address.");
+         header('Location: signup-failed.html');
     } else {
         die("General SQL exception: " . $e->getMessage() . " " . $e->getCode());
     }

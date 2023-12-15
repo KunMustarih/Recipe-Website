@@ -108,25 +108,15 @@ footer {
 }
 
 /* profile.html */
-.profile-container {
-    width: 90%;
-    padding: 10px;
+.user-profile {
+    margin: 20px;
 }
-h2 {
-    font-size: 20px;
+
+.box-container {
+    max-width: 800px;
+    margin: 0 auto;
 }
-.user-info p {
-    font-size: 14px;
-}
-.recipe-table th,
-.recipe-table td {
-    padding: 6px;
-    font-size: 14px;
-}
-#logout-button {
-    font-size: 14px;
-    padding: 6px 12px;
-}
+
 
 /* recipe-search */
 table {
@@ -210,4 +200,10 @@ li {
 #back-button {
     top: 100%; /* Adjust the vertical position for phones */
     left: 50%;
+}
+
+/* Paypal button */
+#paypal-button-container {
+    margin-top: 10px;
+    text-align: center;
 }

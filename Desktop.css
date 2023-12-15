@@ -122,61 +122,16 @@ footer {
 }
 
 /* profile.html */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
-    margin: 0;
-    padding: 0;
+.user-profile {
+    margin: 20px;
 }
 
-.profile-container {
-    width: 60%;
+.box-container {
+    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
 }
 
-h2 {
-    font-size: 24px;
-}
 
-.user-info p {
-    font-size: 18px;
-}
-
-.recipe-container {
-    margin-top: 20px;
-}
-
-.recipe-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.recipe-table th,
-.recipe-table td {
-    padding: 10px;
-    text-align: left;
-}
-
-.recipe-table th {
-    background-color: #3498db;
-    color: #fff;
-}
-
-#logout-button {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#logout-button:hover {
-    background-color: #258cd1;
-}
 
 /* recipe-search.html */
 body {
@@ -246,4 +201,15 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Login page */
+.login-container {
+    padding: 10px;
+}
+
+/* Paypal button */
+#paypal-button-container {
+    margin-top: 20px;
+    text-align: center;
 }

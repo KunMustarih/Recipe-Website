@@ -9,6 +9,40 @@ nav ul li {
     
 }
 
+/* Form validation css */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-group input:focus {
+    outline: 0;
+}
+
+.form-group.success input {
+    border-color: #09c372;
+}
+
+.form-group.error input {
+    border-color: #ff3860;
+}
+
+.form-group .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+
 /* Default styles for all screen sizes 
 For add-recipe.html
 */
@@ -108,7 +142,6 @@ button:hover {
 
 a {
     display: block;
-    margin-top: 20px;
     text-align: center;
     font-size: 18px;
     text-decoration: none;
@@ -338,3 +371,279 @@ li {
     font-size: 18px;
     margin-bottom: 10px;
 }
+
+/* style for profile.html */
+.user-profile {
+    margin: 20px;
+}
+
+.user-profile p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.order_history {
+    margin: 20px;
+}
+
+.box-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.order_history h1 {
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+table a:hover {
+    color: #258cd1;
+}
+
+.table-bottom {
+    font-weight: bold;
+}
+
+
+/* buy-book.php */
+.messages {
+    margin: 20px;
+}
+
+.messages p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.user-profile {
+    margin: 20px;
+}
+
+.user-profile p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.products {
+    margin: 20px;
+}
+
+.box-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    margin: 20px 0;
+}
+
+.box .name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.box .price {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Common button styles */
+.btn, .delete-btn, .option-btn, .checkout-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Primary button styles */
+.btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #258cd1;
+}
+
+/* Delete button styles */
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Option button styles */
+.option-btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.option-btn:hover {
+    background-color: #258cd1;
+}
+
+/* Checkout button styles */
+.checkout-btn {
+    background-color: #2ecc71;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.checkout-btn:hover {
+    background-color: #27ae60;
+}
+
+/* Disabled button styles */
+.shopping-cart .disabled {
+    pointer-events: none;
+    background-color: #d9534f;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* login page */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#login-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#login-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Registeration page */
+.registration-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.registration-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="firstName"],
+input[type="lastName"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#register-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#register-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Paypal button */
+#paypal-button-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Style for the button itself */
+.paypal-button {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
